@@ -28,6 +28,6 @@
       ]
     }
   },
-  "include": ["src", "./setupTest.ts"],
+  "include": ["src", "./setupTest.ts", "vite-env.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
